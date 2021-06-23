@@ -1,0 +1,3 @@
+[2020-10-27 14:54:28.483345] iikoServerApi.getToken Запрашиваем токен...
+[2020-10-27 14:54:28.633331] iikoServerApi.getToken Токен успешно получен: e82f6681-b6cd-a06a-33ac-8b3dc8179cfb
+[2020-10-27 14:54:28.633331] Вызвана функция IikoServerApi.getCustomOlapPreset1 date_from= 2020-08-27, date_to = 2020-08-27

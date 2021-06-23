@@ -1,0 +1,17 @@
+[2021-02-02 21:03:34.447840] ОШИБКА! в parse_olap_sales.parseOlapSeles. Значение date_from больше чем date_to. Должно быть наоборот либо они должны быть равны
+[2021-02-02 21:04:18.054427] olap_sales.parseOlapSeles. Сейчас будем запрашивать отчеты с 2021-02-01 по 2021-02-02
+[2021-02-02 21:04:18.054427] olap_sales.parseOlapSeles. Запрашиваем отчет за 2021-02-01 date_from= 2021-02-01, date_to = 2021-02-01
+[2021-02-02 21:04:18.054427] iikoServerApi.getToken Запрашиваем токен...
+[2021-02-02 21:04:18.973588] iikoServerApi.getToken Токен успешно получен: 236c027f-9070-cfc0-9584-a61b241edf42
+[2021-02-02 21:04:18.973588] Вызвана функция IikoServerApi.getCustomOlapPreset1 date_from= 2021-02-01, date_to = 2021-02-01
+[2021-02-02 21:08:34.288922] Функция IikoServerApi.getCustomOlapPreset1 завершила работу и вернула данные
+[2021-02-02 21:08:50.444209] parse_olap_sales.parseOlapSeles получили данные, начинаем запись в бд...
+[2021-02-02 21:08:51.309387] olap_sales.parseOlapSeles. Подготовлен следующий sql запрос: INSERT INTO `olap_sales_main_table` (`CloseTime`, `Delivery.IsDelivery`, `Department.Id`, `DiscountSum`, `DishAmountInt`, `DishCategory.Id`, `DishGroup.Id`, `DishId`, `DishName`, `DishSumInt`, `ItemSaleEventDiscountType`, `OpenDate.Typed`, `OperationType`, `OrderItems`, `OrderType`, `OriginName`, `ProductCostBase.ProductCost`, `ProductCostBase.Profit`, `RestaurantSection`, `SoldWithDish`, `UniqOrderId.Id`) VALUES (%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s, %s);
+[2021-02-02 21:15:49.074513] olap_sales.parseOlapSeles. Сейчас будем запрашивать отчеты с 2021-01-12 по 2021-01-12
+[2021-02-02 21:15:49.075518] olap_sales.parseOlapSeles. Запрашиваем отчет за 2021-01-12 date_from= 2021-01-12, date_to = 2021-01-12
+[2021-02-02 21:15:49.075518] iikoServerApi.getToken Запрашиваем токен...
+[2021-02-02 21:15:49.611900] iikoServerApi.getToken Токен успешно получен: c8e2ca09-d6ad-76ce-c246-d62895dfe0fc
+[2021-02-02 21:15:49.611900] Вызвана функция IikoServerApi.getCustomOlapPreset1 date_from= 2021-01-12, date_to = 2021-01-12
+[2021-02-02 21:19:58.744182] Функция IikoServerApi.getCustomOlapPreset1 завершила работу и вернула данные
+[2021-02-02 21:20:13.815933] parse_olap_sales.parseOlapSeles получили данные, начинаем запись в бд...
+[2021-02-02 21:20:13.968695] olap_sales.parseOlapSeles. Подготовлен следующий sql запрос: INSERT INTO `olap_sales_main_table` (`CloseTime`, `Delivery.IsDelivery`, `Department.Id`, `DiscountSum`, `DishAmountInt`, `DishCategory.Id`, `DishGroup.Id`, `DishId`, `DishName`, `DishSumInt`, `ItemSaleEventDiscountType`, `OpenDate.Typed`, `OperationType`, `OrderItems`, `OrderType`, `OriginName`, `ProductCostBase.ProductCost`, `ProductCostBase.Profit`, `RestaurantSection`, `SoldWithDish`, `UniqOrderId.Id`) VALUES (%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s,%s, %s, %s, %s, %s);
