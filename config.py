@@ -12,12 +12,13 @@ import os
 '''
 #знаю что константы в верхнем регистре описывать нужно, я больше не буду))
 
+# token и api pass скрыты перед публикацией для безопасности
 api_base_url = "https://itle-meridiannaya.iiko.it:443"
 api_login = "Timur"
-api_pass = "cc28c96e7a447bfb5896197bba43463f1670b0ee"
+api_pass = ""
 organizationId_steik = "8362bcc1-7b7a-11e7-80df-d8d38565926f"
 organizationId_merediana = "b5ec01ba-8aa0-11e9-80dd-d8d385655247"
-token = "eb9d0f4a-332b-104c-4ea6-d1d280db5d47"
+token = ""
 
 base_path = os.path.dirname(os.path.abspath(__file__)) #абсолютный путь до корневой папки проекта
 logger_base_path = base_path+'\logger'  # местоположение лог-файлов
