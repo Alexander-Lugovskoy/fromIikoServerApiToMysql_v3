@@ -6,15 +6,11 @@
 from datetime import datetime, timedelta
 import os
 
-'''
-Логин Timur
-Пароль 4578
-'''
 #знаю что константы в верхнем регистре описывать нужно, я больше не буду))
 
 # token и api pass скрыты перед публикацией для безопасности
 api_base_url = "https://itle-meridiannaya.iiko.it:443"
-api_login = "Timur"
+api_login = ""
 api_pass = ""
 organizationId_steik = "8362bcc1-7b7a-11e7-80df-d8d38565926f"
 organizationId_merediana = "b5ec01ba-8aa0-11e9-80dd-d8d385655247"
